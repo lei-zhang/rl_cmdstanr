@@ -1,3 +1,7 @@
+[![GitHub language count](https://img.shields.io/github/languages/count/lei-zhang/rl_cmdstanr?color=brightgreen&logo=github)](https://github.com/lei-zhang/rl_cmdstanr)
+[![Twitter Follow](https://img.shields.io/twitter/follow/lei_zhang_lz?label=%40lei_zhang_lz)](https://twitter.com/lei_zhang_lz)
+
+
 ## Short tutorial on {cmdstanr} for the simple Rescorla-Wagner RL model
 
 v1 - Lei Zhang - 10 Aug 2020

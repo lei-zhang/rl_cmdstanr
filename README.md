@@ -33,7 +33,7 @@ To run the model, simply call:
 f = rw_run('rw_hba', saveFit = T, test = F)
 ```
 
-The core part is to create a cmdstan object:
+In case you wonder, the core part is to create a cmdstan object:
 ```
 mod = cmdstan_model(modelFile)
 ```
@@ -55,7 +55,7 @@ fit = mod$sample(
 
 In addition, I let the function print out stan diagnostic messages; also, I include the computation of LOO for model comparison.
 
-Note: when `test = T`, the wrapper function will only run 1 chain with 2 samples. This test mode is ideal for debug stan models. 
+Note: when `test = T`, the wrapper function will only run 1 chain with 2 samples. This test mode is ideal for debugging stan models. 
 
 ___
 

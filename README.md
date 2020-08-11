@@ -6,7 +6,7 @@
 
 v1 - Lei Zhang - 10 Aug 2020
 
-Note: this mini tutorial assumes you already know a bit about RStan, and considering switch to cmdstanr.
+Note: this mini tutorial assumes you already know a bit about RStan, and now consider switching to cmdstanr.
 
 ## tl;dr
 ```
@@ -22,7 +22,7 @@ root
   ├─ stanfits   # to save fitted objects
 ```
 
-[{CmdStanR}](https://mc-stan.org/cmdstanr/articles/cmdstanr.html) is a lightweight interface to [Stan](https://mc-stan.org/) for R users that provides an alternative to the traditional [{RStan}](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started) interface. It employs the most updated functionalities in [cmdstan](https://mc-stan.org/users/interfaces/cmdstan.html) and provides nicer tools to operate the posterior. 
+[{CmdStanR}](https://mc-stan.org/cmdstanr/articles/cmdstanr.html) is a lightweight interface to [Stan](https://mc-stan.org/) for R users that provides an alternative to the traditional [{RStan}](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started) interface. It employs the most updated functionalities in [cmdstan](https://mc-stan.org/users/interfaces/cmdstan.html) and provides nicer tools to operate the posterior. In addition, it seems that [{CmdStanR}](https://mc-stan.org/cmdstanr/articles/cmdstanr.html) is the only interface that supports [multithreading](https://mc-stan.org/users/documentation/case-studies/reduce_sum_tutorial.html). See [here for a comparison] (https://mc-stan.org/cmdstanr/articles/cmdstanr.html#comparison-with-rstan) between [{CmdStanR}](https://mc-stan.org/cmdstanr/articles/cmdstanr.html) and [{RStan}](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started).
 
 For researchers using computational modeling to understand cognition, if you have used [{RStan}](https://github.com/stan-dev/rstan/wiki/RStan-Getting-Started) and now consider switching to [{CmdStanR}](https://mc-stan.org/cmdstanr/articles/cmdstanr.html), here is a short tutorial for you. In essence, all your \*.stan models stay intact, and all you need to change is the wrapper function where you call stan models. 
 
